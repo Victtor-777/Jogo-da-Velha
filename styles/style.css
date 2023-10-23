@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    background-color: rgb(209, 232, 252);
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(85, 173, 255);
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 55px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "⚔️";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
